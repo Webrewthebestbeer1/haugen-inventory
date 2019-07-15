@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "haugen-inventory-dev-20190715131403-authRole",
+            "UnauthRoleArn": "arn:aws:iam::057359675476:role/haugen-inventory-dev-20190715131403-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::057359675476:role/haugen-inventory-dev-20190715131403-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "haugen-inventory-dev-20190715131403-deployment",
+            "UnauthRoleName": "haugen-inventory-dev-20190715131403-unauthRole",
+            "StackName": "haugen-inventory-dev-20190715131403",
+            "StackId": "arn:aws:cloudformation:eu-west-1:057359675476:stack/haugen-inventory-dev-20190715131403/a6c5c9a0-a6f1-11e9-a3ee-0ac6bcaf6240"
+        },
+        "categories": {
+            "auth": {
+                "haugeninventoryd4041811": {}
+            }
+        }
+    }
+}
