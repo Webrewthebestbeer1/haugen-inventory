@@ -1,0 +1,12 @@
+type Hop @model {
+  id: ID!
+  name: String!
+  weightGrams: Int!
+  yearHarvested: Int
+}
+
+type Malt @model {
+  id: ID!
+  name: String!
+  weightKilos: Float!
+}

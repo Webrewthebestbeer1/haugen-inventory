@@ -1,0 +1,10 @@
+{
+    "AppSyncApiName": "inventory",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authhaugeninventoryd4041811",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
