@@ -32,7 +32,6 @@ class AddHop extends Component {
         console.error(err);
         this.setState({ errors: err.errors })
     }
-
   }
 
   renderErrors() {
